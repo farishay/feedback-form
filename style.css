@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Eater&family=Signika:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Eater&family=Jolly+Lodger&family=Signika:wght@300..700&display=swap");
+
+body {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0;
+  background-image: linear-gradient(
+    to right,
+    black,
+    rgb(232, 15, 15),
+    rgb(10, 10, 10)
+  );
+}
+input {
+  width: 100%;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: black;
+}
+input:hover,
+input:active,
+input:focus {
+  border-color: red;
+}
+
+select {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+select:hover {
+  border-color: red;
+}
+
+.container {
+  padding: 50px;
+  background-color: black;
+  box-shadow: 0 0 20px 10px black;
+  color: white;
+  font-family: "Eater", serif;
+  width: 100%;
+  max-width: 350px;
+  margin: 50px auto;
+}
+.container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 4px;
+}
+
+select {
+  width: 102%;
+}
+textarea {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid white;
+  background-color: black;
+}
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+textarea:hover {
+  border-color: red;
+}
+button {
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: black;
+  color: rgb(154, 9, 9);
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 5%;
+}
+h1 {
+  color: rgb(154, 9, 9);
+  text-align: center;
+  margin-top: -40px;
+}
+span {
+  font-family: "Jolly Lodger", system-ui;
+  letter-spacing: 2px;
+  font-size: 20px;
+  position: absolute;
+  top: 125px;
+  color: rgb(154, 9, 9);
+}
+
+img {
+  height: 110px;
+  width: 110px;
+}
